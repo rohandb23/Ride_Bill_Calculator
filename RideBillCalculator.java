@@ -14,6 +14,7 @@ class RideBillCalculator{
             System.out.println("Enter your age : ");
             int age=sc.nextInt();
             if(age<12){
+                System.out.println("For photos you will have to pay 3$ extra!!");
                 System.out.println("Do you want to take photos : ");
                 String wantPhotos=sc.next();
                 if(wantPhotos.equalsIgnoreCase("no")){
@@ -27,6 +28,7 @@ class RideBillCalculator{
                 }
             }
             else if(age>=12 && age <18){
+                System.out.println("For photos you will have to pay 3$ extra!!");
                 System.out.println("Do you want to take photos : ");
                 String wantPhotos=sc.next();
                 if(wantPhotos.equalsIgnoreCase("no")){
@@ -40,6 +42,7 @@ class RideBillCalculator{
                 }
             }
             else if(age>=18 && age <45){
+                System.out.println("For photos you will have to pay 3$ extra!!");
                 System.out.println("Do you want to take photos : ");
                 String wantPhotos=sc.next();
                 if(wantPhotos.equalsIgnoreCase("no")){
@@ -53,6 +56,7 @@ class RideBillCalculator{
                 }
             }
             else if(age>=45 && age <=55){
+                System.out.println("For photos you will have to pay 3$ extra!!");
                 System.out.println("Do you want to take photos : ");
                 String wantPhotos=sc.next();
                 if(wantPhotos.equalsIgnoreCase("no")){
